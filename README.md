@@ -21,7 +21,7 @@ docker run -d owm
 This is an example service definition that could be added in `docker-compose.yml`. The *owm* service depends on the *influxdb* service for data logging.
 
 ```yml
-  owm:
+owm:
     container_name: owm
     build: ./services/owm/
     depends_on:
